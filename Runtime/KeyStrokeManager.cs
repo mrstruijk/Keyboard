@@ -13,11 +13,11 @@ public class KeyStrokeManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI m_displayPhrase;
     [SerializeField] private Button m_ok;
     [SerializeField] private List<AudioClip> m_clips;
-    
+    [SerializeField] private AllowedCharacterType m_allowedCharacterType = AllowedCharacterType.Digits;
+
     public UnityEvent<string> KeyCodeEntered;
 
     private string[] _characters;
-
     private int _participantNumber = 0;
     private const string ClearedPhrase = "== Cleared ==";
 
@@ -49,13 +49,20 @@ public class KeyStrokeManager : MonoBehaviour
     {
         foreach (var keyCap in m_keyCaps)
         {
-            keyCap.onClick.AddListener(() => AddCharacter(keyCap.GetComponentInChildren<TextMeshProUGUI>().text));
-            keyCap.onClick.AddListener(() => PlayAudio(keyCap.transform.position));
+            keyCap.onClick.AddListener(() => OnKeyPressed(keyCap));
         }
 
         m_backSpace.onClick.AddListener(RemoveCharacter);
         m_backSpace.onClick.AddListener(() => PlayAudio(m_backSpace.transform.position));
         m_ok.onClick.AddListener(() => PlayAudio(m_ok.transform.position));
+    }
+
+
+    private void OnKeyPressed(Button keyCap)
+    {
+        var character = keyCap.GetComponentInChildren<TextMeshProUGUI>().text;
+        AddCharacter(character);
+        PlayAudio(keyCap.transform.position);
     }
 
 
@@ -70,7 +77,7 @@ public class KeyStrokeManager : MonoBehaviour
         m_backSpace.interactable = true;
         m_ok.interactable = false;
 
-        // Remove the last digit by integer division
+        // Remove the last digit
         _participantNumber /= 10;
         m_displayPhrase.text = _participantNumber.ToString();
 
@@ -83,39 +90,49 @@ public class KeyStrokeManager : MonoBehaviour
 
     private void AddCharacter(string character)
     {
-        int digit;
-
-        // Check if the character is a valid digit
-        if (int.TryParse(character, out digit))
+        if (IsCharacterValid(character) && _participantNumber.ToString().Length < m_requiredKeyCodeLength)
         {
-            // If the current participant number is less than the required length
-            if (_participantNumber.ToString().Length < m_requiredKeyCodeLength)
-            {
-                _participantNumber = _participantNumber * 10 + digit; // Add the digit to the number
-                m_displayPhrase.text = _participantNumber.ToString();
-                m_backSpace.interactable = true; // Backspace is always interactable if there's at least one digit
-            }
-            else
-            {
-                // If the number is too long, show the ClearedPhrase and disable buttons
-                m_displayPhrase.text = ClearedPhrase;
-                _participantNumber = 0; // Reset the participant number
-                m_backSpace.interactable = false;
-                m_ok.interactable = false;
-
-                return; // Exit early
-            }
-        }
-
-        // Set OK button interactable only if the length matches the required length
-        if (_participantNumber.ToString().Length == m_requiredKeyCodeLength)
-        {
-            m_ok.interactable = true;
+            _participantNumber = _participantNumber * 10 + int.Parse(character);
+            m_displayPhrase.text = _participantNumber.ToString();
+            m_backSpace.interactable = true;
         }
         else
         {
+            m_displayPhrase.text = ClearedPhrase;
+            _participantNumber = 0;
+            m_backSpace.interactable = false;
             m_ok.interactable = false;
+
+            return;
         }
+
+        m_ok.interactable = _participantNumber.ToString().Length == m_requiredKeyCodeLength;
+    }
+
+
+    private bool IsCharacterValid(string character)
+    {
+        var isValid = false;
+
+        switch (m_allowedCharacterType)
+        {
+            case AllowedCharacterType.Letters:
+                isValid = char.IsLetter(character[0]);
+
+                break;
+
+            case AllowedCharacterType.Digits:
+                isValid = char.IsDigit(character[0]);
+
+                break;
+
+            case AllowedCharacterType.LettersAndDigits:
+                isValid = char.IsLetterOrDigit(character[0]);
+
+                break;
+        }
+
+        return isValid;
     }
 
 
@@ -124,7 +141,6 @@ public class KeyStrokeManager : MonoBehaviour
         if (_participantNumber.ToString().Length == m_requiredKeyCodeLength)
         {
             KeyCodeEntered?.Invoke(_participantNumber.ToString());
-
             DisableAllButtons();
             UnsubscribeButtons();
         }
@@ -151,8 +167,7 @@ public class KeyStrokeManager : MonoBehaviour
     {
         foreach (var keyCap in m_keyCaps)
         {
-            keyCap.onClick.RemoveListener(() => AddCharacter(keyCap.GetComponentInChildren<TextMeshProUGUI>().text));
-            keyCap.onClick.RemoveListener(() => PlayAudio(keyCap.transform.position));
+            keyCap.onClick.RemoveListener(() => OnKeyPressed(keyCap));
         }
 
         m_backSpace.onClick.RemoveListener(RemoveCharacter);
@@ -161,9 +176,6 @@ public class KeyStrokeManager : MonoBehaviour
     }
 
 
-    /// <summary>
-    ///     Needs to be done if there's spaces in the TextField component.
-    /// </summary>
     [ContextMenu(nameof(ResetTextFieldToName))]
     private void ResetTextFieldToName()
     {
@@ -172,4 +184,12 @@ public class KeyStrokeManager : MonoBehaviour
             keyCap.GetComponentInChildren<TextMeshProUGUI>().text = keyCap.name;
         }
     }
+}
+
+
+public enum AllowedCharacterType
+{
+    Letters,
+    Digits,
+    LettersAndDigits
 }
