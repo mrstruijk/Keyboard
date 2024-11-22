@@ -7,25 +7,26 @@ using UnityEngine.UI;
 
 public class KeyStrokeManager : MonoBehaviour
 {
-    [SerializeField] [Range(2, 10)] private int m_requiredKeyCodeLength = 4;
-    [SerializeField] private Button[] m_keyCaps;
-    [SerializeField] private Button m_backSpace;
-    [SerializeField] private TextMeshProUGUI m_displayPhrase;
-    [SerializeField] private Button m_ok;
-    [SerializeField] private List<AudioClip> m_clips;
+    [SerializeField] [Range(2, 20)] private int m_requiredKeyCodeLength = 4;
     [SerializeField] private AllowedCharacterType m_allowedCharacterType = AllowedCharacterType.Digits;
+    [SerializeField] private TextMeshProUGUI m_displayPhrase;
+    [SerializeField] private Button[] m_keyCaps;
+    [SerializeField] private Button m_ok;
+    [SerializeField] private Button m_backSpace;
+    [SerializeField] private List<AudioClip> m_audioClips;
+    [SerializeField] private AudioClip m_failedAudio;
 
     public UnityEvent<string> KeyCodeEntered;
 
     private string[] _characters;
-    private int _participantNumber = 0;
+    private string _keyCode = "";
     private const string ClearedPhrase = "== Cleared ==";
 
 
     private void Awake()
     {
         _characters = new string[m_keyCaps.Length];
-        m_displayPhrase.text = _participantNumber.ToString();
+        m_displayPhrase.text = _keyCode; // Display keycode initially as empty
     }
 
 
@@ -61,14 +62,28 @@ public class KeyStrokeManager : MonoBehaviour
     private void OnKeyPressed(Button keyCap)
     {
         var character = keyCap.GetComponentInChildren<TextMeshProUGUI>().text;
-        AddCharacter(character);
-        PlayAudio(keyCap.transform.position);
+
+        if (IsCharacterValid(character))
+        {
+            AddCharacter(character);
+            PlayAudio(keyCap.transform.position);
+        }
+        else
+        {
+            PlayFailedAudio(keyCap.transform.position);
+        }
     }
 
 
     private void PlayAudio(Vector3 position)
     {
-        AudioSource.PlayClipAtPoint(m_clips[Random.Range(0, m_clips.Count)], position);
+        AudioSource.PlayClipAtPoint(m_audioClips[Random.Range(0, m_audioClips.Count)], position);
+    }
+
+
+    private void PlayFailedAudio(Vector3 position)
+    {
+        AudioSource.PlayClipAtPoint(m_failedAudio, position);
     }
 
 
@@ -77,11 +92,11 @@ public class KeyStrokeManager : MonoBehaviour
         m_backSpace.interactable = true;
         m_ok.interactable = false;
 
-        // Remove the last digit
-        _participantNumber /= 10;
-        m_displayPhrase.text = _participantNumber.ToString();
+        // Remove the last character
+        _keyCode = _keyCode.Substring(0, _keyCode.Length - 1);
+        m_displayPhrase.text = _keyCode;
 
-        if (_participantNumber == 0)
+        if (_keyCode.Length == 0)
         {
             m_backSpace.interactable = false;
         }
@@ -90,23 +105,23 @@ public class KeyStrokeManager : MonoBehaviour
 
     private void AddCharacter(string character)
     {
-        if (IsCharacterValid(character) && _participantNumber.ToString().Length < m_requiredKeyCodeLength)
+        if (_keyCode.Length < m_requiredKeyCodeLength)
         {
-            _participantNumber = _participantNumber * 10 + int.Parse(character);
-            m_displayPhrase.text = _participantNumber.ToString();
+            _keyCode += character; // Add character to keycode string
+            m_displayPhrase.text = _keyCode;
             m_backSpace.interactable = true;
         }
         else
         {
             m_displayPhrase.text = ClearedPhrase;
-            _participantNumber = 0;
+            _keyCode = ""; // Reset keycode
             m_backSpace.interactable = false;
             m_ok.interactable = false;
 
             return;
         }
 
-        m_ok.interactable = _participantNumber.ToString().Length == m_requiredKeyCodeLength;
+        m_ok.interactable = _keyCode.Length == m_requiredKeyCodeLength;
     }
 
 
@@ -138,15 +153,15 @@ public class KeyStrokeManager : MonoBehaviour
 
     public void EnterKeyCode()
     {
-        if (_participantNumber.ToString().Length == m_requiredKeyCodeLength)
+        if (_keyCode.Length == m_requiredKeyCodeLength)
         {
-            KeyCodeEntered?.Invoke(_participantNumber.ToString());
+            KeyCodeEntered?.Invoke(_keyCode);
             DisableAllButtons();
             UnsubscribeButtons();
         }
         else
         {
-            Debug.LogWarning($"Participant number is not of required length {m_requiredKeyCodeLength}");
+            Debug.LogWarning($"Keycode is not of required length {m_requiredKeyCodeLength}");
         }
     }
 

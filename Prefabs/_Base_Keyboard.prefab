@@ -198,15 +198,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -236,7 +238,6 @@ GameObject:
   - component: {fileID: 809817136737317865}
   - component: {fileID: 5442264103981859593}
   - component: {fileID: 2346288811054682621}
-  - component: {fileID: 4599267710547557431}
   m_Layer: 5
   m_Name: g
   m_TagString: Untagged
@@ -346,18 +347,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4599267710547557431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201805500688674883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &304568907715093200
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,15 +455,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -600,15 +591,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -702,7 +695,6 @@ GameObject:
   - component: {fileID: 9054542175832554271}
   - component: {fileID: 2245815812195939159}
   - component: {fileID: 2909864992787148443}
-  - component: {fileID: 9044129122232012405}
   m_Layer: 5
   m_Name: q
   m_TagString: Untagged
@@ -812,18 +804,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &9044129122232012405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580721219990133707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &682899696896038769
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,7 +816,6 @@ GameObject:
   - component: {fileID: 4787088641320382114}
   - component: {fileID: 2783935128016672154}
   - component: {fileID: 342340166116770517}
-  - component: {fileID: 1188807096730714253}
   m_Layer: 5
   m_Name: a
   m_TagString: Untagged
@@ -946,18 +925,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1188807096730714253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682899696896038769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &957620105376609488
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +937,6 @@ GameObject:
   - component: {fileID: 3000799924381794929}
   - component: {fileID: 2720360575970017003}
   - component: {fileID: 5862823928132826972}
-  - component: {fileID: 4512919243799203240}
   m_Layer: 5
   m_Name: h
   m_TagString: Untagged
@@ -1080,18 +1046,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4512919243799203240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 957620105376609488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1078786760354248161
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,7 +1058,6 @@ GameObject:
   - component: {fileID: 2474126324479493470}
   - component: {fileID: 6171470490945356824}
   - component: {fileID: 4514222146548952672}
-  - component: {fileID: 655592741696054428}
   m_Layer: 5
   m_Name: r
   m_TagString: Untagged
@@ -1214,18 +1167,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &655592741696054428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078786760354248161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1202645294809995192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,15 +1275,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -1372,7 +1315,6 @@ GameObject:
   - component: {fileID: 7192749045010140213}
   - component: {fileID: 5273326201932986522}
   - component: {fileID: 2845331650318642033}
-  - component: {fileID: 7583189174399615439}
   m_Layer: 5
   m_Name: c
   m_TagString: Untagged
@@ -1482,18 +1424,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7583189174399615439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451601973412150041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1561612138766266313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,15 +1532,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -1736,15 +1668,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -1774,7 +1708,6 @@ GameObject:
   - component: {fileID: 5752456163173678435}
   - component: {fileID: 5676381269711471689}
   - component: {fileID: 5713883858498221495}
-  - component: {fileID: 7697446063349626560}
   m_Layer: 5
   m_Name: j
   m_TagString: Untagged
@@ -1884,18 +1817,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7697446063349626560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2196865345615435123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2266347101076783606
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,7 +1922,6 @@ GameObject:
   - component: {fileID: 1292736821488422006}
   - component: {fileID: 4650781435176897768}
   - component: {fileID: 2278150972208324740}
-  - component: {fileID: 504317480813305382}
   m_Layer: 5
   m_Name: z
   m_TagString: Untagged
@@ -2111,18 +2031,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &504317480813305382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2267458299469196446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2321566322568338681
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,15 +2139,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -2440,15 +2350,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -2478,7 +2390,6 @@ GameObject:
   - component: {fileID: 9047095581810396082}
   - component: {fileID: 1067188276198379054}
   - component: {fileID: 3436856730296363427}
-  - component: {fileID: 180261437015104850}
   m_Layer: 5
   m_Name: m
   m_TagString: Untagged
@@ -2588,18 +2499,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &180261437015104850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2871683195155886967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3282204253956790854
 GameObject:
   m_ObjectHideFlags: 0
@@ -2612,7 +2511,6 @@ GameObject:
   - component: {fileID: 5898477518313023130}
   - component: {fileID: 1441755872045029729}
   - component: {fileID: 2527985439097261970}
-  - component: {fileID: 1472762911228735772}
   m_Layer: 5
   m_Name: x
   m_TagString: Untagged
@@ -2722,18 +2620,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1472762911228735772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3282204253956790854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3701432570202307675
 GameObject:
   m_ObjectHideFlags: 0
@@ -2746,7 +2632,6 @@ GameObject:
   - component: {fileID: 5340080950141395112}
   - component: {fileID: 7840325141035706164}
   - component: {fileID: 2218621332085883977}
-  - component: {fileID: 2543830794148257342}
   m_Layer: 5
   m_Name: b
   m_TagString: Untagged
@@ -2856,18 +2741,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2543830794148257342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3701432570202307675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3734569666086419472
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,15 +2849,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -3014,7 +2889,6 @@ GameObject:
   - component: {fileID: 4982229223948734053}
   - component: {fileID: 4227341812071039463}
   - component: {fileID: 7646016648476531553}
-  - component: {fileID: 7131070822667212071}
   m_Layer: 5
   m_Name: y
   m_TagString: Untagged
@@ -3124,146 +2998,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7131070822667212071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4134467319864632207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &4239142665672327289
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1612870210613478549}
-  - component: {fileID: 6705398045676405230}
-  - component: {fileID: 7736123660015598735}
-  m_Layer: 5
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1612870210613478549
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4239142665672327289}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6416814703775217759}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &6705398045676405230
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4239142665672327289}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -99
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!114 &7736123660015598735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4239142665672327289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
-  m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &4370623758415713110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3276,7 +3010,6 @@ GameObject:
   - component: {fileID: 5791731064085901070}
   - component: {fileID: 8375715027107024589}
   - component: {fileID: 21099411218361813}
-  - component: {fileID: 3868982389942159732}
   m_Layer: 5
   m_Name: t
   m_TagString: Untagged
@@ -3386,18 +3119,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3868982389942159732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4370623758415713110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4426067913557320171
 GameObject:
   m_ObjectHideFlags: 0
@@ -3410,7 +3131,6 @@ GameObject:
   - component: {fileID: 3245407858879997171}
   - component: {fileID: 2231899667943428689}
   - component: {fileID: 4569354077214689904}
-  - component: {fileID: 3069420754417561584}
   m_Layer: 5
   m_Name: i
   m_TagString: Untagged
@@ -3520,18 +3240,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3069420754417561584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4426067913557320171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4582560413923791003
 GameObject:
   m_ObjectHideFlags: 0
@@ -3544,7 +3252,6 @@ GameObject:
   - component: {fileID: 2176745332418769933}
   - component: {fileID: 6970467614167354217}
   - component: {fileID: 1737319849091777312}
-  - component: {fileID: 6726275224867312099}
   m_Layer: 5
   m_Name: k
   m_TagString: Untagged
@@ -3654,18 +3361,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6726275224867312099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4582560413923791003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4611779299558413569
 GameObject:
   m_ObjectHideFlags: 0
@@ -3678,7 +3373,6 @@ GameObject:
   - component: {fileID: 874025178328133660}
   - component: {fileID: 109911871950401231}
   - component: {fileID: 7015992513332945443}
-  - component: {fileID: 279671388099814219}
   m_Layer: 5
   m_Name: n
   m_TagString: Untagged
@@ -3788,18 +3482,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &279671388099814219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4611779299558413569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4855078309075915352
 GameObject:
   m_ObjectHideFlags: 0
@@ -3908,15 +3590,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -3946,7 +3630,6 @@ GameObject:
   - component: {fileID: 8767728379244573135}
   - component: {fileID: 6018408288426546544}
   - component: {fileID: 38013272511144072}
-  - component: {fileID: 8037679558158368091}
   m_Layer: 5
   m_Name: e
   m_TagString: Untagged
@@ -4056,18 +3739,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8037679558158368091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4944613757042546811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5106845631634802004
 GameObject:
   m_ObjectHideFlags: 0
@@ -4176,15 +3847,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -4279,7 +3952,6 @@ GameObject:
   - component: {fileID: 5284574740536053327}
   - component: {fileID: 7349138573516840211}
   - component: {fileID: 5825272841734186693}
-  - component: {fileID: 5375114181374363673}
   m_Layer: 5
   m_Name: BackSpace
   m_TagString: Untagged
@@ -4409,18 +4081,6 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &5375114181374363673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5830225211071222353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5886313015873559355
 GameObject:
   m_ObjectHideFlags: 0
@@ -4529,15 +4189,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -4663,15 +4325,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -4701,7 +4365,6 @@ GameObject:
   - component: {fileID: 8502173725305696204}
   - component: {fileID: 371536610985272299}
   - component: {fileID: 6736734873574329280}
-  - component: {fileID: 1190832312738170968}
   m_Layer: 5
   m_Name: d
   m_TagString: Untagged
@@ -4811,18 +4474,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1190832312738170968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6199135861044425309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6365614484732496669
 GameObject:
   m_ObjectHideFlags: 0
@@ -4931,15 +4582,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -5067,15 +4720,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -5105,7 +4760,6 @@ GameObject:
   - component: {fileID: 6416814703116985671}
   - component: {fileID: 6416814703116985672}
   - component: {fileID: 6416814703116985673}
-  - component: {fileID: 2339350124569873297}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -5215,18 +4869,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2339350124569873297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814703116985675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814703139645452
 GameObject:
   m_ObjectHideFlags: 0
@@ -5239,7 +4881,6 @@ GameObject:
   - component: {fileID: 6416814703139645448}
   - component: {fileID: 6416814703139645449}
   - component: {fileID: 6416814703139645450}
-  - component: {fileID: 4192458465204052446}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -5349,18 +4990,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4192458465204052446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814703139645452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814703268258716
 GameObject:
   m_ObjectHideFlags: 0
@@ -5469,15 +5098,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -5507,7 +5138,6 @@ GameObject:
   - component: {fileID: 6416814703357483910}
   - component: {fileID: 6416814703357483911}
   - component: {fileID: 6416814703357483912}
-  - component: {fileID: 2114579911080331336}
   - component: {fileID: 1083821929441907689}
   m_Layer: 5
   m_Name: Canvas
@@ -5572,10 +5202,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2000, y: 1200}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -5600,19 +5230,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 2039
---- !u!114 &2114579911080331336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814703357483914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b72d11bd7b3841e2bdc997a6378fbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_camTag: MainCamera
 --- !u!114 &1083821929441907689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5740,15 +5357,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -5874,15 +5493,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -6008,15 +5629,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -6142,15 +5765,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -6178,9 +5803,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6416814703775217759}
   - component: {fileID: 6416814703775217758}
-  - component: {fileID: 7189506332204123808}
   m_Layer: 5
-  m_Name: 60% Keyboard
+  m_Name: _Base_Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6200,7 +5824,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6416814703357483913}
-  - {fileID: 1612870210613478549}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6416814703775217758
@@ -6256,7 +5879,7 @@ MonoBehaviour:
   m_backSpace: {fileID: 7349138573516840211}
   m_displayPhrase: {fileID: 6416814704361714848}
   m_ok: {fileID: 6416814703928230494}
-  m_clips:
+  m_audioClips:
   - {fileID: 8300000, guid: 0eb2ace01569d476e864a1e5c27b17f5, type: 3}
   - {fileID: 8300000, guid: b033124967619493a937e91bf90ce267, type: 3}
   - {fileID: 8300000, guid: afc1e81e386104ce08a7902dc584cfd1, type: 3}
@@ -6264,20 +5887,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 89f1c00b581164bee84f816bb982785c, type: 3}
   - {fileID: 8300000, guid: a2a3049156f19440b9e00249a243cf61, type: 3}
   - {fileID: 8300000, guid: 9d1936365115c4a5891d9e70e1276a82, type: 3}
---- !u!114 &7189506332204123808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814703775217728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24ad1814ed0a489c930c33c490c5cc7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_target: {fileID: 6416814703775217728}
-  m_delay: 0.25
+  m_allowedCharacterType: 2
+  KeyCodeEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_failedAudio: {fileID: 8300000, guid: 2717b0219a6ee4411890df9e1ec625bd, type: 3}
 --- !u!1 &6416814703843055045
 GameObject:
   m_ObjectHideFlags: 0
@@ -6386,15 +6000,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -6520,15 +6136,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -6559,7 +6177,6 @@ GameObject:
   - component: {fileID: 6416814703928230493}
   - component: {fileID: 6416814703928230494}
   - component: {fileID: 3071826603078893538}
-  - component: {fileID: 7543374031580436754}
   m_Layer: 5
   m_Name: Ok
   m_TagString: Untagged
@@ -6681,18 +6298,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 7189506332204123808}
-        m_TargetAssemblyTypeName: DestroyGameObject, mrstruijk
-        m_MethodName: DestroyAfterDelay
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &3071826603078893538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6713,18 +6318,6 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &7543374031580436754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814703928230464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814704026039709
 GameObject:
   m_ObjectHideFlags: 0
@@ -6833,15 +6426,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -6871,7 +6466,6 @@ GameObject:
   - component: {fileID: 6416814704059388866}
   - component: {fileID: 6416814704059388867}
   - component: {fileID: 6416814704059388868}
-  - component: {fileID: 4016279677329485418}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -6981,18 +6575,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4016279677329485418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814704059388870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814704077325173
 GameObject:
   m_ObjectHideFlags: 0
@@ -7005,7 +6587,6 @@ GameObject:
   - component: {fileID: 6416814704077325169}
   - component: {fileID: 6416814704077325170}
   - component: {fileID: 6416814704077325171}
-  - component: {fileID: 1461247806259866318}
   m_Layer: 5
   m_Name: 9
   m_TagString: Untagged
@@ -7115,18 +6696,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1461247806259866318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814704077325173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814704279218129
 GameObject:
   m_ObjectHideFlags: 0
@@ -7139,7 +6708,6 @@ GameObject:
   - component: {fileID: 6416814704279217709}
   - component: {fileID: 6416814704279217710}
   - component: {fileID: 6416814704279217711}
-  - component: {fileID: 1272564772919792396}
   m_Layer: 5
   m_Name: 5
   m_TagString: Untagged
@@ -7249,18 +6817,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1272564772919792396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814704279218129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814704312937351
 GameObject:
   m_ObjectHideFlags: 0
@@ -7273,7 +6829,6 @@ GameObject:
   - component: {fileID: 6416814704312937347}
   - component: {fileID: 6416814704312937348}
   - component: {fileID: 6416814704312937349}
-  - component: {fileID: 8284017819856829952}
   m_Layer: 5
   m_Name: 4
   m_TagString: Untagged
@@ -7383,18 +6938,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8284017819856829952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814704312937351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814704361714850
 GameObject:
   m_ObjectHideFlags: 0
@@ -7504,15 +7047,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7658,15 +7203,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7792,15 +7339,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7926,15 +7475,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7964,7 +7515,6 @@ GameObject:
   - component: {fileID: 6416814704802520616}
   - component: {fileID: 6416814704802520617}
   - component: {fileID: 6416814704802520618}
-  - component: {fileID: 400521861866795563}
   m_Layer: 5
   m_Name: 0
   m_TagString: Untagged
@@ -8074,18 +7624,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &400521861866795563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814704802520620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814704848543398
 GameObject:
   m_ObjectHideFlags: 0
@@ -8098,7 +7636,6 @@ GameObject:
   - component: {fileID: 6416814704848543394}
   - component: {fileID: 6416814704848543395}
   - component: {fileID: 6416814704848543396}
-  - component: {fileID: 7803722319149688301}
   m_Layer: 5
   m_Name: 6
   m_TagString: Untagged
@@ -8208,18 +7745,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7803722319149688301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814704848543398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814705020847922
 GameObject:
   m_ObjectHideFlags: 0
@@ -8232,7 +7757,6 @@ GameObject:
   - component: {fileID: 6416814705020847886}
   - component: {fileID: 6416814705020847887}
   - component: {fileID: 6416814705020847920}
-  - component: {fileID: 8184752733737754093}
   m_Layer: 5
   m_Name: 8
   m_TagString: Untagged
@@ -8342,18 +7866,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8184752733737754093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814705020847922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6416814705108907011
 GameObject:
   m_ObjectHideFlags: 0
@@ -8366,7 +7878,6 @@ GameObject:
   - component: {fileID: 6416814705108907039}
   - component: {fileID: 6416814705108907008}
   - component: {fileID: 6416814705108907009}
-  - component: {fileID: 3401312310381625951}
   m_Layer: 5
   m_Name: 7
   m_TagString: Untagged
@@ -8476,18 +7987,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3401312310381625951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6416814705108907011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6572729192919897759
 GameObject:
   m_ObjectHideFlags: 0
@@ -8500,7 +7999,6 @@ GameObject:
   - component: {fileID: 6436525806584539077}
   - component: {fileID: 6245205383975906569}
   - component: {fileID: 990287663715257887}
-  - component: {fileID: 4700893251753373945}
   m_Layer: 5
   m_Name: p
   m_TagString: Untagged
@@ -8610,18 +8108,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4700893251753373945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6572729192919897759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6708402412041784880
 GameObject:
   m_ObjectHideFlags: 0
@@ -8634,7 +8120,6 @@ GameObject:
   - component: {fileID: 2213624948685292416}
   - component: {fileID: 4003297497170748947}
   - component: {fileID: 6662573381830846333}
-  - component: {fileID: 6145474181252764249}
   m_Layer: 5
   m_Name: o
   m_TagString: Untagged
@@ -8744,18 +8229,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6145474181252764249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6708402412041784880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6768111486849014859
 GameObject:
   m_ObjectHideFlags: 0
@@ -8768,7 +8241,6 @@ GameObject:
   - component: {fileID: 4690207128325716197}
   - component: {fileID: 4557937001640812813}
   - component: {fileID: 2683282666965510092}
-  - component: {fileID: 8807777000460414094}
   m_Layer: 5
   m_Name: v
   m_TagString: Untagged
@@ -8878,18 +8350,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8807777000460414094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6768111486849014859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7194049831292922673
 GameObject:
   m_ObjectHideFlags: 0
@@ -8998,15 +8458,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -9132,15 +8594,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -9170,7 +8634,6 @@ GameObject:
   - component: {fileID: 3416114416661047413}
   - component: {fileID: 4090424240331710606}
   - component: {fileID: 6725308568682556637}
-  - component: {fileID: 2733585515180479606}
   m_Layer: 5
   m_Name: s
   m_TagString: Untagged
@@ -9280,18 +8743,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2733585515180479606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7454338951098643004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7459600138065868152
 GameObject:
   m_ObjectHideFlags: 0
@@ -9400,15 +8851,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -9438,7 +8891,6 @@ GameObject:
   - component: {fileID: 9123243544944658507}
   - component: {fileID: 2709644463789818333}
   - component: {fileID: 1145734115791006140}
-  - component: {fileID: 6528582604892970752}
   m_Layer: 5
   m_Name: w
   m_TagString: Untagged
@@ -9548,18 +9000,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6528582604892970752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7556806233374468824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7583303086910979760
 GameObject:
   m_ObjectHideFlags: 0
@@ -9668,15 +9108,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -9987,15 +9429,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -10121,15 +9565,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -10159,7 +9605,6 @@ GameObject:
   - component: {fileID: 8220110558573070991}
   - component: {fileID: 1099845587186527664}
   - component: {fileID: 1435674675088265602}
-  - component: {fileID: 237535595554786982}
   m_Layer: 5
   m_Name: f
   m_TagString: Untagged
@@ -10269,18 +9714,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &237535595554786982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8268267126856850278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8421900614167831177
 GameObject:
   m_ObjectHideFlags: 0
@@ -10389,15 +9822,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -10523,15 +9958,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -10561,7 +9998,6 @@ GameObject:
   - component: {fileID: 5229102422993416366}
   - component: {fileID: 3312649844193869065}
   - component: {fileID: 2936125296085261983}
-  - component: {fileID: 254407094760057761}
   m_Layer: 5
   m_Name: l
   m_TagString: Untagged
@@ -10671,18 +10107,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &254407094760057761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8499739838958143734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8615650543635847924
 GameObject:
   m_ObjectHideFlags: 0
@@ -10791,15 +10215,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -10829,7 +10255,6 @@ GameObject:
   - component: {fileID: 8455963890490461298}
   - component: {fileID: 4962604301745183374}
   - component: {fileID: 9208224443644459407}
-  - component: {fileID: 3144466909513165527}
   m_Layer: 5
   m_Name: u
   m_TagString: Untagged
@@ -10939,18 +10364,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3144466909513165527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8624747903732977666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05ee10cbd974753808590188d31fc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8815051612098364321
 GameObject:
   m_ObjectHideFlags: 0
@@ -11126,15 +10539,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -11260,15 +10675,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -11394,15 +10811,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
